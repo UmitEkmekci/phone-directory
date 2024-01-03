@@ -1,0 +1,56 @@
+.pagination {
+  display: flex;
+  justify-content: center; /* Elemanları yatayda ortalar */
+  list-style: none; /* Liste işaretlerini kaldırır */
+  padding: 10px 20px;
+  margin: 20px auto; /* Üstte ve altta boşluk, sağ ve solda otomatik merkezleme */
+  position: fixed; /* Sabit konum */
+  bottom: 0; /* Altta sabitler */
+  left: 50%; /* Sol tarafı sayfanın ortasına yerleştirir */
+  transform: translateX(-50%); /* Yatayda tam ortalanmasını sağlar */
+  background-color: #f9f9f9; /* Arka plan rengi */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+}
+
+.pagination li {
+  margin: 0 5px; /* Liste elemanları arasında boşluk */
+  display: flex; /* Flex kutu olarak ayarla */
+  align-items: center; /* Dikeyde ortalar */
+}
+
+.pagination a {
+  text-decoration: none; /* Bağlantı alt çizgisini kaldırır */
+  color: black; /* Bağlantı rengi */
+  cursor: pointer;
+  padding: 5px 10px; /* Buton boyutları */
+  border-radius: 4px; /* Kenar yuvarlaklığı */
+}
+
+.pagination button {
+  background-color: #007bff; /* Butonların varsayılan arka plan rengi */
+  color: white; /* Buton yazı rengi */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #0056b3; /* Buton üzerine gelindiğinde arka plan rengi */
+}
+
+.pagination .back-button {
+  background-color: #dc3545; /* Geri butonu için arka plan rengi */
+}
+
+.pagination .forward-button {
+  background-color: #28a745; /* İleri butonu için arka plan rengi */
+}
+
+.pagination .active {
+  font-weight: bold;
+  color: #dc3545;
+}

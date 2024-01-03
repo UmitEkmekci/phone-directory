@@ -1,0 +1,33 @@
+.results-list {
+    text-align: center; /* Tüm metinleri ortalar */
+  }
+  
+  .search-list {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .search-list h5 {
+    margin-bottom: 10px;
+  }
+  
+  .search-list ul {
+    list-style: none; /* Liste işaretlerini kaldırır */
+    padding: 0;
+  }
+  
+  .search-list ul li {
+    margin-bottom: 5px;
+  }
+  
+  .no-item-warning {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
